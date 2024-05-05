@@ -117,5 +117,9 @@
     <action id="NewPowerShellFile" class="com.intellij.plugin.powershell.ide.actions.NewPowerShellFileAction">
       <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFromTemplate"/>
     </action>
+    <action id="RunDebugScript" class="com.intellij.plugin.powershell.ide.actions.RunDebugScript"
+            text="Run PS debug script" description="Starts PowerShell debug script">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </action>
   </actions>
 </idea-plugin>
